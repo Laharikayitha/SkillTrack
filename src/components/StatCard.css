@@ -1,0 +1,27 @@
+.stat-card {
+  padding: 20px;
+  background: var(--white);
+  border: 1px solid var(--gray-border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+
+.stat-card__label {
+  color: var(--gray-text);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.stat-card__value {
+  margin-top: 10px;
+  color: var(--blue-dark);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stat-card__detail {
+  margin-top: 12px;
+  color: var(--gray-text);
+  font-size: 14px;
+}

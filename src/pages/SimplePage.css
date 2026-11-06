@@ -1,0 +1,18 @@
+.simple-page {
+  padding: 28px;
+  background: var(--white);
+  border: 1px solid var(--gray-border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+
+.simple-page h2 {
+  font-size: 24px;
+}
+
+.simple-page p {
+  max-width: 520px;
+  margin-top: 10px;
+  color: var(--gray-text);
+  line-height: 1.5;
+}

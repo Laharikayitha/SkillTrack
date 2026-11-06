@@ -1,0 +1,39 @@
+:root {
+  --blue: #1d4ed8;
+  --blue-dark: #1e3a8a;
+  --blue-soft: #dbeafe;
+  --white: #ffffff;
+  --gray-bg: #f3f6fb;
+  --gray-border: #e2e8f0;
+  --gray-text: #64748b;
+  --text: #0f172a;
+  --shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  --sidebar-width: 260px;
+  --font: "Segoe UI", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--text);
+  background: var(--gray-bg);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
